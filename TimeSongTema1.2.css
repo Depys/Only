@@ -1,0 +1,474 @@
+﻿
+
+#room-settings .general-settings .welcome:before {
+    content: "Tema desenvolvido por Depys ";
+    background: rgba(0,0,0,0.50);
+    padding: 15px;
+    border-radius: 15px;
+    /* margin-top: 15px; */
+    top: 15px;
+    border: 1px solid rgba(256,256,256, 0.80);
+}
+
+#dj-button:after {
+    border: 1px solid rgba(256, 256, 256, 0.50);
+    content: "O tema está na versão 1.2";
+    background: rgba(0,0,0,0.50);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+#room .app-right {
+    background: rgba(0,0,0,0.80);
+}
+
+#chat .cm:nth-child(2n+1) {
+    background: transparent;
+}
+
+#dj-button {
+    position: absolute;
+    top: 450px;
+    height: 61px;
+    padding: 5px;
+    border: 1px solid;
+    width: 230px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.70);
+    cursor: pointer;
+    line-height: 59px;
+    z-index: 8;
+}
+
+#dj-button .left {
+    background: rgba(53, 150, 214, 0.50);
+    position: absolute;
+    left: 0;
+    border-radius: 20px 0px 0px 20px;
+    top: 0;
+    width: 72px;
+    height: 100%;
+}
+
+#dj-button .left {
+    background: rgba(53, 150, 214, 0.50);
+    position: absolute;
+    left: 0;
+    border-radius: 20px 0px 0px 20px;
+    top: 0;
+    width: 72px;
+    height: 100%;
+}
+
+
+#room-settings .general-settings {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    text-align: center;
+}
+
+#room-settings {
+    z-index: 600;
+    display: none;
+    background: rgba(0,0,0,0.80);
+}
+
+#room-settings-menu {
+    display: none;
+}
+
+#room-settings .general-settings .option button.off {
+    margin-left: 10px;
+    border: 1px solid;
+    margin: 1px;
+    border-radius: 20px;
+    background: rgba(53, 150, 214, 0.50);
+    color: #eee;
+}
+
+#room-settings .general-settings .option button {
+    position: relative;
+    float: left;
+    width: 45%;
+    border-radius: 20px;
+    BORDER: 1px solid white;
+    height: 39px;
+    background: rgba(93, 28, 28, 0.30);
+    color: #808691;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    cursor: default;
+}
+
+#room-settings .general-settings a, #room-settings .general-settings a:visited {
+    display: none;
+
+}
+
+.dropdown dd {
+    position: relative;
+    display: none;
+    background: rgba(0,0,0,0.30);
+    max-height: 412px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#room-settings .general-settings .option.enabled>button.off {
+    background: rgba(93, 28, 28, 0.30);
+    color: #808691;
+}
+.dropdown dd .row:hover {
+    background: rgba(47, 95, 127, 0.40);
+    color: #eee;
+}
+
+.dropdown {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 39px;
+    background: rgba(47, 95, 127, 0.40);
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#vote .crowd-response {
+    border-radius: 15px;
+    position: relative;
+    float: left;
+    margin-right: 2px;
+    width: 84px;
+    border-radius: 10px 10px 0px 0px;
+    height: 38px;
+    background: rgba(0,0,0,0.50);
+    text-align: center;
+    cursor: pointer;
+}
+
+#meh {
+
+    display: none;
+}
+
+#woot {
+    background: transparent;
+}
+
+#woot .bottom {
+    background: rgba(0,0,0,0.40);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#woot.crowd-response.selected, 
+#woot.selected .bottom {
+    margin-top: 1px;
+   border: 1px solid;
+    background: rgba(53, 214, 74, 0.5);
+}
+
+
+#grab {
+    background: transparent;
+}
+
+#grab .bottom {
+    background: rgba(0,0,0,0.40);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#grab.crowd-response.selected, 
+#grab.selected .bottom {
+    margin-top: 1px;
+   border: 1px solid;
+    background: rgba(251, 102, 218, 0.5)
+}
+
+
+#user-rollover {
+    position: absolute;
+    z-index: 60001;
+    width: 300px;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(0,0,0,0.80);
+    border: 2px solid;
+    -webkit-box-shadow: 2px 2px 10px 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 2px 2px 10px 0 rgba(0,0,0,.5);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.5);
+}
+
+.thumb .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+#footer-user .buttons .button:hover {
+    background: rgba(53, 150, 214, 0.50);
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 54px;
+    background: rgba(53, 150, 214, 0.80);
+    -webkit-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 2px 0 -1px #0a0a0a;
+}
+
+#footer-user .info {
+    position: absolute;
+    top: -54px;
+    left: 0;
+    display: none;
+    width: 345px;
+    height: 54px;
+    background: rgba(0,0,0, 0.75);
+    border: 1px solid;
+}
+
+#app-menu {
+    z-index: 99!important;
+    display: none;
+}
+
+.app-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    background: rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+}
+
+#history-button {
+    position: absolute;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    background: rgba(0, 0, 0, 0.20);
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 -2px 0 -1px #0a0a0a;
+    cursor: pointer;
+}
+
+#rs-skip-button {
+    position: absolute;
+    right: 55px;
+    width: 54px;
+    background: rgba(0, 0, 0, 0.20);
+    height: 54px;
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0A0A0A;
+    background: rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: inset 0 -2px 0 -1px #0A0A0A;
+    box-shadow: inset 0 -2px 0 -1px #0A0A0A;
+    cursor: pointer;
+}
+
+#playlist-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: hidden;
+    height: 54px;
+    background: rgba(0,0,0,0.80);
+}
+
+#playlist-menu {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 256px;
+    height: 300px;
+    background: rgba(0,0,0,0.80);
+}
+
+#playlist-menu .menu .row.selected {
+    background: rgba(53, 150, 214, 0.50);
+    cursor: default;
+}
+
+#playlist-menu .menu .row:hover {
+    background: rgba(6, 83, 134, 0.5);
+}
+
+#search {
+    position: absolute;
+    top: 0;
+    left: 53px;
+    overflow-x: hidden;
+    width: 500px;
+    height: 54px;
+    background: rgba(0,0,0,0.80);
+    -webkit-box-shadow: inset -2px 2px 0 -1px #0a0a0a;
+    -moz-box-shadow: inset -2px 2px 0 -1px #0a0a0a;
+    box-shadow: inset -2px 2px 0 -1px #0a0a0a;
+}
+
+.media-list .row.selected {
+    background: rgba(53, 150, 214, 0.50);
+}
+
+
+.row.playlist-media-item:hover {
+    background: rgba(6, 83, 134, 0.5);
+}
+
+#playlist-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 53px;
+    height: 54px;
+    -webkit-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    background: black;
+    -moz-box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    box-shadow: inset 0 2px 0 -1px #0a0a0a;
+    cursor: pointer;
+}
+
+#user-rollover .info .role i {
+    position: relative;
+    float: left;
+    margin-top: 2px;
+    display: none;
+}
+
+#user-rollover.role-host .username {
+    font-weight: bold;
+}
+
+.badge-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+.social-menu {
+    position: absolute;
+    top: 0;
+    width: 54px;
+    height: 54px;
+    display: none;
+}
+
+#chat .moderation {
+    color: #b3b3b3;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px dashed #1ca281;
+}
+
+#chat .moderation .from.staff:before {
+    content: " O(A) Administrador(a) ";
+    color: #b3b3b3
+}
+
+#chat-messages .from .icon {
+    position: relative;
+    top: 1px;
+    display: none;
+    z-index: 0;
+    float: left;
+    margin-right: 4px;
+}
+
+.role-host span.un.clickable:After {
+    content: "( Desenvolvedor )";
+    padding-left: 5px;
+    color: #0c9e73;
+}
+
+.role-cohost span.un.clickable:After {
+    content: " ( Subdiretor(a) ) ";
+    padding-left: 5px;
+    color: #0c9e73;
+}
+
+.role-manager span.un.clickable:After,
+.role-boucer span.un.clickable:After {
+    content: " ( Administrador(a) ) ";
+    padding-left: 5px;
+    color: #0c9e73;
+}
+
+.role-rdj span.un.clickable:After {
+    content: " ( Moderador(a) ) ";
+    padding-left: 5px;
+    color: #0c9e73;
+}
+
+#chat .moderation .badge-box {
+    background: 0 0;
+    display: none;
+}
+
+#chat-input {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 326px;
+    border-radius: 20px;
+    height: 30px;
+    background: #282c35;
+}
+
+#app-menu {
+    z-index: 99!important;
+    display: none;
+}
+
+#chat .from.staff, #chat .from.dj {
+    color: #b3b3b3;
+}
+
+#chat .from.staff .un {
+    color: #c3c3c3;
+}
+
+.right-meta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.60);
+    z-index: 30;
+    width: 345px;
+    height: 54px;
+}
+
+.header-panel-button.selected {
+    border-right: none;
+    background-color: transparent;
+    cursor: default;
+}
+
+#rs-skip-button {
+    position: absolute;
+    right: 55px;
+    width: 54px;
+    height: 54px;
+    background: rgba(0,0,0,0.60);
+}
