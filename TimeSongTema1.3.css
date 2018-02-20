@@ -1,4 +1,4 @@
-﻿
+
 
 #room-settings .general-settings .welcome:before {
     content: "Tema desenvolvido por Depys ";
@@ -408,15 +408,19 @@
     color: #0c9e73;
 }
 
-.role-manager span.un.clickable:After,
-.role-bouncer span.un.clickable:After {
+.role-manager span.un.clickable:After {
     content: " ( Administrador(a) ) ";
+    padding-left: 5px;
+    color: #0c9e73;
+}
+.role-bouncer span.un.clickable:After {
+    content: " ( Moderador(a) ) ";
     padding-left: 5px;
     color: #0c9e73;
 }
 
 .role-dj span.un.clickable:After {
-    content: " ( Moderador(a) ) ";
+    content: " ( Ajudante ) ";
     padding-left: 5px;
     color: #0c9e73;
 }
