@@ -1,4 +1,4 @@
-﻿.playbackbanner-container:after {
+.playbackbanner-container:after {
     content: "Sala: 1";
     border: 1px solid white;
     content: "Você está na sala: 1 ( Música )";
@@ -424,7 +424,7 @@
 
 
 .role-manager span.un.clickable:After {
-    content: " ( Administrador(a) ) ";
+    content: " ( Bot ) ";
     padding-left: 5px;
     color: #0aa9e8;
     background: transparent url(http://i.imgur.com/DeeiUkd.gif);
