@@ -1,6 +1,6 @@
 .playbackbanner-container:after {
     content: "Sala: 1";
-    border: 1px solid white;
+    border: 2px solid #1da281;
     content: "Você está na sala: 1!";
     background: rgba(0,0,0,0.50);
     width: 500px;
@@ -19,7 +19,7 @@
 }
 
 #dj-button:after {
-    border: 1px solid rgba(256, 256, 256, 0.50);
+    border: 2px solid #1da281;
     content: "O tema está na versão 3.0";
     background: rgba(0,0,0,0.50);
     padding: 10px;
@@ -495,20 +495,23 @@
     text-shadow: 0px 0px 5px #0aa9e8;
 }
 
+#chat .from.you .un {
+    color: white;
+}
+
+
 #chat .from.you .un:after {
     content: "( Assinante )";
     padding-left: 5px;
-    color: #DDDD22;
-    background: transparent url(http://i.imgur.com/DeeiUkd.gif);
-    text-shadow: 0px 0px 5px #DDDD22;
+    color: #ffdd6f;
+    text-shadow: 0px 0px 5px #ffdd6f;
 }
 
 .subscriber span.un.clickable:After {
     content: "( Assinante )";
     padding-left: 5px;
-    color: #DDDD22;
-    background: transparent url(http://i.imgur.com/DeeiUkd.gif);
-    text-shadow: 0px 0px 5px #DDDD22;
+    color: #ffdd6f;
+    text-shadow: 0px 0px 5px #ffdd6f;
 }
 
 .role-manager span.un.clickable:After {
