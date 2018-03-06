@@ -1,4 +1,4 @@
-﻿.playbackbanner-container:after {
+.playbackbanner-container:after {
     content: "TS:158.69.106.44:10513 ";
     border: 2px solid #1da281;
     content: "Tema criado por Depys";
@@ -10,7 +10,8 @@
 
 #dj-button:after {
     border: 2px solid #1da281;
-    content: "O tema está na versão 3.2";
+    content: "O tema está na verão final!"; 
+    text-transform: uppercase;
     background: rgba(0,0,0,0.50);
     padding: 10px;
     border-radius: 20px;
@@ -683,4 +684,41 @@ i.icon.icon-gift {
     background: transparent url(http://i.imgur.com/DeeiUkd.gif);
     text-shadow: 0px 0px 5px #BE2F13;
 
+}
+
+#user-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 220px;
+    width: 22%;
+    height: 100%;
+    background-color: rgb(12, 26, 47);
+    background-image: url(https://i.imgur.com/sxm5VUu.png);
+}
+
+#user-menu .item.selected {
+    background: #0aa9d6;
+    cursor: default;
+}
+
+#user-menu .avatar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    background: #535d80;
+    background: -moz-linear-gradient(top,#535d80 0,#32324d 56%,#1a1a1a 73%,#73716d 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#535d80),color-stop(56%,#32324d),color-stop(73%,#1a1a1a),color-stop(100%,#73716d));
+    background: -webkit-linear-gradient(top,#535d80 0,#32324d 56%,#1a1a1a 73%,#73716d 100%);
+    background: -o-linear-gradient(top,#535d80 0,#32324d 56%,#1a1a1a 73%,#73716d 100%);
+    background: -ms-linear-gradient(top,#535d80 0,#32324d 56%,#1a1a1a 73%,#73716d 100%);
+    background: linear-gradient(to bottom,#26cdf4 0,#27d0f6 56%,#26d0f7 73%,#f1e16b 100%);
+}
+
+#user-settings .tab-menu button:first-child {
+    background: linear-gradient(to bottom,#26d0f7 5%,#225db5 100%);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
