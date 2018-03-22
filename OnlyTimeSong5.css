@@ -33,6 +33,33 @@
     border-bottom: 1px solid #1c1f25;
     background: #111317;
 }
+
+#room-settings .general-settings .welcome {
+    display: none;
+    height: 150px;
+}
+
+#room-settings .general-settings .option {
+    position: relative;
+    display: none;
+    float: left;
+    width: 39%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#room-settings .general-settings .description .value {
+    padding: 10px 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: no;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid #07a9e8;
+    height: 235px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #07a9e8;
+}
+
 #waitlist .list .user {
     position: relative;
     overflow: hidden;
@@ -100,6 +127,7 @@
 
 #room-settings-menu {
     display: none;
+    width: 0px;
 }
 
 #room-settings .general-settings .option button.off {
