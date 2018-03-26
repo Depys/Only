@@ -25,7 +25,7 @@
 
 #user-lists .list.staff .group {
     position: relative;
-    display: none;
+    display: block;
     margin-top: 16px;
     width: 100%;
     height: 36px;
@@ -850,4 +850,51 @@ i.icon.icon-gift {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.3);
     transform: scale(1.1);
+}
+
+#user-lists .list.staff .group.bouncer span:after {
+    text-align: center;
+    border: 1px solid #007cd8;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    content: " Moderadores(as) ";
+}
+
+#user-lists .list.staff .group.dj span:after {
+    text-align: center;
+    border: 1px solid #e05d1d;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    content: " Moderadores(as) ";
+}
+
+#user-lists .list.staff .group.manager span:after {
+    text-align: center;
+    border: 1px solid #BE2F13;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    content: " Administradores(as) ";
+}
+#user-lists .list.staff .group.host span:after {
+    text-align: center;
+    border: 1px solid #0aa9e8;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    content: " Diretores(as)";
 }
