@@ -511,10 +511,10 @@
     border-top: 1px solid rgba(255, 62, 62, 0.1);
 }
 #chat .cm.message.role-host {
-    background: rgba(10, 169, 232, 0.1);
-    border-bottom: 1px solid rgba(62, 175, 255, 0.1);
-    border-top: 1px solid rgba(62, 175, 255, 0.1);
-}
+    background: rgba(227, 8, 176, 0.1);
+    border-bottom: 1px solid rgba(227, 8, 176, 0.1);
+    border-top: 1px solid rgba(227, 8, 176, 0.1);
+} 
 #chat .cm.message.role-dj {
     background: rgba(213, 89, 29, 0.1);
     border-bottom: 1px solid rgba(255, 169, 62, 0.1);
@@ -529,15 +529,14 @@
 .role-host span.un.clickable:After {
     content: "( Desenvolvedor )";
     padding-left: 5px;
-    color: #0aa9e8;
+    color: #710370;
     background: transparent url(http://i.imgur.com/DeeiUkd.gif);
-    text-shadow: 0px 0px 5px #0aa9e8;
-
+    text-shadow: 0px 0px 5px #710370;
 }
 
 
 .role-cohost span.un.clickable:After {
-    content: "( Diretor(a) )";
+    content: "( Subdiretor(a) )";
     padding-left: 5px;
     color: #0aa9e8;
     background: transparent url(http://i.imgur.com/DeeiUkd.gif);
@@ -701,7 +700,7 @@ i.icon.icon-gift {
 }
 
 #user-rollover.role-cohost .username:after {
-    content: "( Diretor(a) )";
+    content: "( Subdiretor(a) )";
     padding-left: 5px;
     font-size: 14px;
     color: #0aa9e8;
@@ -713,9 +712,9 @@ i.icon.icon-gift {
     content: "( Desenvolvedor ) ";
     padding-left: 5px;
     font-size: 14px;
-    color: #0aa9e8;
+    color: #710370;
     background: transparent url(http://i.imgur.com/DeeiUkd.gif);
-    text-shadow: 0px 0px 5px #0aa9e8;
+    text-shadow: 0px 0px 5px #710370;
 }
 
 #user-rollover.role-bouncer .username:after {
